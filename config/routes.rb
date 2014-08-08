@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   match '/about', to: 'static_pages#about', via:'get', as: :about
   match '/contact', to: 'static_pages#contact', via:'get', as: :contact
   
+  resources :users
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
