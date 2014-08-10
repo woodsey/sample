@@ -21,6 +21,9 @@ gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
 gem 'bcrypt-ruby','3.1.2'
 
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate','0.0.9'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
